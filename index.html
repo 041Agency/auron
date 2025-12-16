@@ -3,20 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magnus Auron</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- SEO Meta Tags -->
+    <title>Auron | Crypto Strategy Platform</title>
+    <meta name="description" content="Advanced crypto trading strategy platform with AI-powered strategy generation, paper trading, and Hyperliquid integration.">
+    <meta name="keywords" content="crypto trading, strategy platform, hyperliquid, paper trading, crypto strategies">
+    <meta name="author" content="Auron">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Auron | Crypto Strategy Platform">
+    <meta property="og:description" content="Advanced crypto trading strategy platform with AI-powered strategy generation, paper trading, and Hyperliquid integration.">
+    <meta property="og:image" content="/images/auron-jumbotron.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Auron | Crypto Strategy Platform">
+    <meta name="twitter:description" content="Advanced crypto trading strategy platform with AI-powered strategy generation, paper trading, and Hyperliquid integration.">
+    <meta name="twitter:image" content="/images/auron-jumbotron.webp">
+
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 0 20px;
-            line-height: 1.6;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 { color: #333; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #0d1b2a 100%);
+            min-height: 100vh;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .jumbotron {
+            max-width: 1400px;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 200, 255, 0.15);
+            animation: fadeIn 1.2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Magnus Auron</h1>
-    <p>Welcome to Magnus Auron - Your trading platform.</p>
+    <section class="hero">
+        <img src="images/auron-jumbotron.webp" alt="Auron - Crypto Strategy Platform" class="jumbotron">
+    </section>
 </body>
 </html>
